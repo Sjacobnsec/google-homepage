@@ -1,0 +1,59 @@
+div {
+  display: block;
+  text-align: center;
+}
+img {
+  height: 95px;
+  width: 269px;
+  padding-top: 250px;
+  transition: all 0.1s ease-in;
+  /*position: absolute;
+  top: 250px;
+  left: 500px;*/
+}
+/*.logo:hover {
+  transform: rotate(30deg);
+}*/
+.search {
+  padding-top: 20px;
+  text-align: center; 
+}
+.sirac {
+  height: 25px;
+  width: 550px;
+}
+.sirac:selected {
+  outline: blue;
+}
+.submit {
+  position: relative;
+  width: 96px;
+  height: 29px;
+  top: 10px;
+  left: -60px;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 2px;
+}
+.submit:hover {
+
+}
+.submitTwo {
+  position: relative;
+  width: 106px;
+  height: 29px;
+  top: -19px;
+  left: 60px;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 2px; 
+}
+.mic {
+  position: relative;
+  top: -328px;
+  left: 1000px;
+  height: 15px;
+  width: 13px;
+}
