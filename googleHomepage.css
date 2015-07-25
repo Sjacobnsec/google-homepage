@@ -51,9 +51,9 @@ img {
   border-radius: 2px; 
 }
 .mic {
-  position: absolute;
-  top: 136px;
-  left: 1009px;
+  /*position: relative;*/
+  padding-top: 2px;
+  margin-right: 50px;
   height: 15px;
   width: 13px;
 }
