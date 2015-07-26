@@ -3,9 +3,9 @@ div {
   text-align: center;
 }
 img {
-  height: 95px;
+  height: 95px; /*95*/
   width: 269px;
-  padding-top: 250px;
+  padding-top: 112px; /*250*/
   transition: all 0.1s ease-in;
   /*position: absolute;
   top: 250px;
@@ -16,15 +16,13 @@ img {
 }*/
 .search {
   padding-top: 20px;
-  text-align: center; 
+  text-align: center;
 }
 .sirac {
   height: 25px;
-  width: 550px;
+  width: 466px;
 }
-.sirac:selected {
-  outline: blue;
-}
+
 .submit {
   position: relative;
   width: 96px;
@@ -32,13 +30,18 @@ img {
   top: 10px;
   left: -60px;
   font-family: arial, sans-serif;
-  font-size: 12px;
+  font-size: 11px;
+  font-weight: bold;
   text-align: center;
   border-radius: 2px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+  color: #444;
 }
-.submit:hover {
 
-}
+
 .submitTwo {
   position: relative;
   width: 106px;
@@ -46,15 +49,24 @@ img {
   top: -19px;
   left: 60px;
   font-family: arial, sans-serif;
-  font-size: 12px;
+  font-size: 11px;
+  font-weight: bold;
   text-align: center;
-  border-radius: 2px; 
+  border-radius: 2px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+  color: #444;
+  background-color: #F5F5F5; 
 }
+/*
 .mic {
-  /*position: relative;*/
+ 
   padding-top: 2px;
   margin-right: 50px;
   height: 15px;
   width: 13px;
-}
-/*ari comment*/
+  z-index: 1;
+}*/
+
