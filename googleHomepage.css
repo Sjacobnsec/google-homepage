@@ -15,6 +15,28 @@ div {
  right: 10px;
  }
 
+li img {
+  position: relative;
+  top: -5px;
+  height: 30px;
+  width: 30px;
+  padding-top: 0px;
+ }
+ .sig {
+  font-family: arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 2px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+  background: #4387FD;
+  color: white;
+  line-height: 24px;
+ }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -28,11 +50,19 @@ li {
   width: 60px;
 }
 a {
+  color: black;
   font-family: arial, sans-serif;
   font-size: 13px;
   text-decoration: none;
 }
+.mai:hover {
+  text-decoration: underline;
+}
 
+.img:hover {
+  text-decoration: underline;
+}
+/*This is messing up any other image that is on the page*/
 img {
   height: 95px; /*95*/
   width: 269px;
