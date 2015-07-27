@@ -24,7 +24,13 @@ ul {
 
 li {
   display: inline;
-    
+  float: left;  
+  width: 60px;
+}
+a {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
 }
 
 img {
