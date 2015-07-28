@@ -135,13 +135,23 @@ img {
   list-style-type: none;
   width: 100%;
   margin-left: -8px;
-
+  line-height: 40px;
   color: black;
   font-family: arial, sans-serif;
   font-size: 13px;
   text-decoration: none;
-  background-color: green;
+  background-color: gray;
   position: absolute;
   bottom: 0px;
+  
+}
+#lnav {
+  position: absolute;
+  left: 25px;
+  word-spacing: 30px;
+}
+#rnav {
+  margin-right: -1100px;
+  word-spacing: 30px;
 }
 
