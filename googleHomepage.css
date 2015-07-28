@@ -154,6 +154,7 @@ img {
 #rnav {
   /*margin-right: -1100px;*/
   float: right;
+  padding-right: 10px;
   word-spacing: 30px;
   opacity: 0.6;
 }
