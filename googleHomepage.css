@@ -152,7 +152,8 @@ img {
   opacity: 0.6;
 }
 #rnav {
-  margin-right: -1100px;
+  /*margin-right: -1100px;*/
+  float: right;
   word-spacing: 30px;
   opacity: 0.6;
 }
